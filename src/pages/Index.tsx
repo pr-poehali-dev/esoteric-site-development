@@ -49,15 +49,15 @@ const Index = () => {
         </div>
         <div className="container mx-auto text-center relative z-10">
           <div className="flex justify-center gap-8 mb-6 animate-float">
-            <Icon name="Moon" size={48} className="text-accent" />
-            <Icon name="Eye" size={48} className="text-secondary" />
+            <Icon name="Zap" size={48} className="text-accent" />
+            <Icon name="Heart" size={48} className="text-secondary" />
             <Icon name="Sparkles" size={48} className="text-accent" />
           </div>
           <h2 className="text-5xl md:text-7xl font-playfair font-bold mb-6 bg-gradient-to-r from-accent via-secondary to-accent bg-clip-text text-transparent animate-fade-in">
-            Раскройте тайны судьбы
+            Гармония энергии и души
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-in">
-            Профессиональное гадание на картах Таро, толкование символов и консультации по жизненным вопросам
+            Работа с энергетикой человека, восстановление баланса и гармонии вашего энергетического поля
           </p>
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold px-8 animate-fade-in">
             Записаться на сеанс
@@ -80,13 +80,13 @@ const Index = () => {
             </div>
             <div className="w-full md:w-2/3 space-y-4 text-muted-foreground">
               <p>
-                Приветствую вас в мире тайн и мистических откровений. Меня зовут [Ваше имя], и я практикующий таролог с более чем [X] летним опытом работы с картами Таро.
+                Приветствую вас в пространстве света и гармонии. Меня зовут [Ваше имя], и я практикующий энергопрактик с более чем [X] летним опытом работы с энергетикой человека.
               </p>
               <p>
-                Моя миссия — помочь вам найти ответы на волнующие вопросы, раскрыть скрытые возможности и обрести ясность в сложных жизненных ситуациях. Каждый расклад — это уникальное путешествие в глубины вашей души.
+                Моя миссия — помочь вам восстановить энергетический баланс, очистить энергетические каналы и раскрыть внутренний потенциал. Каждая сессия — это индивидуальный подход к вашему уникальному энергетическому полю.
               </p>
               <p>
-                Помимо работы с картами Таро, я занимаюсь пристройством кошек, ведь эти мистические существа всегда были связаны с магией и интуицией.
+                Помимо работы с энергией, я занимаюсь пристройством кошек, ведь эти удивительные существа являются природными целителями и хранителями энергетического баланса.
               </p>
             </div>
           </div>
@@ -104,9 +104,9 @@ const Index = () => {
                     <Icon name="Sparkles" size={40} className="text-accent" />
                   </div>
                 </div>
-                <h4 className="text-2xl font-playfair font-semibold">Гадание на Таро</h4>
+                <h4 className="text-2xl font-playfair font-semibold">Энергетическая диагностика</h4>
                 <p className="text-muted-foreground">
-                  Классические расклады на любовь, работу, финансы и другие сферы жизни
+                  Сканирование энергетического поля, выявление блоков и дисбалансов
                 </p>
               </CardContent>
             </Card>
@@ -118,9 +118,9 @@ const Index = () => {
                     <Icon name="BookOpen" size={40} className="text-accent" />
                   </div>
                 </div>
-                <h4 className="text-2xl font-playfair font-semibold">Толкование карт</h4>
+                <h4 className="text-2xl font-playfair font-semibold">Энергетическая чистка</h4>
                 <p className="text-muted-foreground">
-                  Глубокий анализ символики и значений каждой карты в вашем раскладе
+                  Очищение энергетических каналов от негатива и восстановление потока энергии
                 </p>
               </CardContent>
             </Card>
@@ -132,9 +132,9 @@ const Index = () => {
                     <Icon name="MessageCircle" size={40} className="text-accent" />
                   </div>
                 </div>
-                <h4 className="text-2xl font-playfair font-semibold">Консультации</h4>
+                <h4 className="text-2xl font-playfair font-semibold">Балансировка чакр</h4>
                 <p className="text-muted-foreground">
-                  Личные консультации для поиска ответов на важные жизненные вопросы
+                  Гармонизация энергетических центров и восстановление внутреннего баланса
                 </p>
               </CardContent>
             </Card>
@@ -152,7 +152,7 @@ const Index = () => {
                   <Icon name="Video" size={24} className="text-accent" />
                   <h4 className="text-xl font-playfair font-semibold">Онлайн-сеанс</h4>
                 </div>
-                <p className="text-muted-foreground">Видео-консультация в удобное для вас время</p>
+                <p className="text-muted-foreground">Дистанционная работа с энергией в удобное для вас время</p>
                 <p className="text-2xl font-bold text-accent">3000 ₽</p>
                 <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
                   Записаться
@@ -163,13 +163,13 @@ const Index = () => {
             <Card className="bg-primary border-border">
               <CardContent className="p-6 space-y-3">
                 <div className="flex items-center gap-3">
-                  <Icon name="Mail" size={24} className="text-accent" />
-                  <h4 className="text-xl font-playfair font-semibold">Письменный расклад</h4>
+                  <Icon name="Users" size={24} className="text-accent" />
+                  <h4 className="text-xl font-playfair font-semibold">Личная встреча</h4>
                 </div>
-                <p className="text-muted-foreground">Подробное толкование с фото расклада</p>
-                <p className="text-2xl font-bold text-accent">2000 ₽</p>
+                <p className="text-muted-foreground">Глубокая работа с энергией в пространстве студии</p>
+                <p className="text-2xl font-bold text-accent">5000 ₽</p>
                 <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
-                  Заказать
+                  Записаться
                 </Button>
               </CardContent>
             </Card>
