@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,44 +6,44 @@
 
 @layer base {
   :root {
-    --background: 263 45% 8%;
-    --foreground: 38 67% 85%;
+    --background: 240 10% 5%;
+    --foreground: 45 100% 90%;
 
-    --card: 263 35% 12%;
-    --card-foreground: 38 67% 85%;
+    --card: 240 8% 8%;
+    --card-foreground: 45 100% 90%;
 
-    --popover: 263 35% 12%;
-    --popover-foreground: 38 67% 85%;
+    --popover: 240 8% 8%;
+    --popover-foreground: 45 100% 90%;
 
-    --primary: 263 45% 25%;
-    --primary-foreground: 38 67% 85%;
+    --primary: 280 50% 15%;
+    --primary-foreground: 45 100% 90%;
 
-    --secondary: 291 36% 45%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 280 60% 40%;
+    --secondary-foreground: 45 100% 95%;
 
-    --muted: 263 25% 20%;
-    --muted-foreground: 38 40% 70%;
+    --muted: 240 5% 15%;
+    --muted-foreground: 45 30% 70%;
 
-    --accent: 38 67% 51%;
-    --accent-foreground: 263 45% 8%;
+    --accent: 45 100% 60%;
+    --accent-foreground: 240 10% 5%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 263 25% 20%;
-    --input: 263 25% 20%;
-    --ring: 38 67% 51%;
+    --border: 280 30% 20%;
+    --input: 240 5% 15%;
+    --ring: 45 100% 60%;
 
-    --radius: 0.5rem;
+    --radius: 0rem;
 
-    --sidebar-background: 263 40% 10%;
-    --sidebar-foreground: 38 67% 85%;
-    --sidebar-primary: 291 36% 45%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 263 35% 12%;
-    --sidebar-accent-foreground: 38 67% 85%;
-    --sidebar-border: 263 25% 20%;
-    --sidebar-ring: 38 67% 51%;
+    --sidebar-background: 240 10% 3%;
+    --sidebar-foreground: 45 100% 90%;
+    --sidebar-primary: 280 60% 40%;
+    --sidebar-primary-foreground: 45 100% 95%;
+    --sidebar-accent: 240 8% 8%;
+    --sidebar-accent-foreground: 45 100% 90%;
+    --sidebar-border: 280 30% 20%;
+    --sidebar-ring: 45 100% 60%;
   }
 }
 
@@ -54,7 +54,8 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 0.02em;
   }
 
   h1,
@@ -63,6 +64,8 @@
   h4,
   h5,
   h6 {
-    font-family: "Playfair Display", serif;
+    font-family: "Cinzel", serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
 }

@@ -101,8 +101,12 @@ export default {
 				'float': 'float 3s ease-in-out infinite'
 			},
 			fontFamily: {
-				'playfair': ['Playfair Display', 'serif'],
-				'montserrat': ['Montserrat', 'sans-serif']
+				'cinzel': ['Cinzel', 'serif'],
+				'cormorant': ['Cormorant Garamond', 'serif']
+			},
+			boxShadow: {
+				'glow': '0 0 20px rgba(255, 215, 0, 0.3)',
+				'glow-lg': '0 0 40px rgba(255, 215, 0, 0.4)',
 			}
 		}
 	},
