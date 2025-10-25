@@ -25,8 +25,9 @@ const Index = () => {
             <h1 className="text-2xl font-playfair font-bold text-accent">ВУША</h1>
             <div className="hidden md:flex gap-6">
               <a href="#about" className="text-foreground/80 hover:text-accent transition-colors">Обо мне</a>
-              <a href="#services" className="text-foreground/80 hover:text-accent transition-colors">Услуги</a>
+              <a href="#services" className="text-foreground/80 hover:text-accent transition-colors">Практики</a>
               <a href="#consultations" className="text-foreground/80 hover:text-accent transition-colors">Консультации</a>
+              <a href="#directions" className="text-foreground/80 hover:text-accent transition-colors">Направления</a>
               <a href="#cats" className="text-foreground/80 hover:text-accent transition-colors">Помощь кошкам</a>
               <a href="#reviews" className="text-foreground/80 hover:text-accent transition-colors">Отзывы</a>
               <a href="#contact" className="text-foreground/80 hover:text-accent transition-colors">Контакты</a>
@@ -54,10 +55,10 @@ const Index = () => {
             <Icon name="Sparkles" size={48} className="text-accent" />
           </div>
           <h2 className="text-5xl md:text-7xl font-playfair font-bold mb-6 bg-gradient-to-r from-accent via-secondary to-accent bg-clip-text text-transparent animate-fade-in">
-            Гармония энергии и души
+            Путь к сакральным знаниям
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-in">
-            Работа с энергетикой человека, восстановление баланса и гармонии вашего энергетического поля
+            Таро, нумерология, руны, астрология — древние практики для познания себя и мира
           </p>
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold px-8 animate-fade-in">
             Записаться на сеанс
@@ -80,13 +81,13 @@ const Index = () => {
             </div>
             <div className="w-full md:w-2/3 space-y-4 text-muted-foreground">
               <p>
-                Приветствую вас в пространстве света и гармонии. Меня зовут [Ваше имя], и я практикующий энергопрактик с более чем [X] летним опытом работы с энергетикой человека.
+                Приветствую вас в мире древних знаний и мистических практик. Меня зовут [Ваше имя], и я практикующий эзотерик с более чем [X] летним опытом работы с различными системами предсказаний и духовными практиками.
               </p>
               <p>
-                Моя миссия — помочь вам восстановить энергетический баланс, очистить энергетические каналы и раскрыть внутренний потенциал. Каждая сессия — это индивидуальный подход к вашему уникальному энергетическому полю.
+                Моя миссия — помочь вам найти ответы на важные вопросы через Таро, раскрыть коды судьбы с помощью нумерологии, понять влияние планет через астрологию и получить мудрость предков через рунические практики. Я работаю с медитациями, энергетическими практиками и помогаю людям найти свой духовный путь.
               </p>
               <p>
-                Помимо работы с энергией, я занимаюсь пристройством кошек, ведь эти удивительные существа являются природными целителями и хранителями энергетического баланса.
+                Помимо эзотерических практик, я занимаюсь пристройством кошек — этих магических существ, которые издревле считались проводниками между мирами и хранителями священных знаний.
               </p>
             </div>
           </div>
@@ -95,7 +96,7 @@ const Index = () => {
 
       <section id="services" className="py-20 px-4">
         <div className="container mx-auto">
-          <h3 className="text-4xl font-playfair font-bold text-center mb-12 text-accent">Услуги</h3>
+          <h3 className="text-4xl font-playfair font-bold text-center mb-12 text-accent">Эзотерические практики</h3>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <Card className="bg-card border-border hover:border-accent transition-colors group">
               <CardContent className="p-6 text-center space-y-4">
@@ -104,9 +105,9 @@ const Index = () => {
                     <Icon name="Sparkles" size={40} className="text-accent" />
                   </div>
                 </div>
-                <h4 className="text-2xl font-playfair font-semibold">Энергетическая диагностика</h4>
+                <h4 className="text-2xl font-playfair font-semibold">Гадание на Таро</h4>
                 <p className="text-muted-foreground">
-                  Сканирование энергетического поля, выявление блоков и дисбалансов
+                  Классические расклады на любовь, работу, финансы и жизненный путь
                 </p>
               </CardContent>
             </Card>
@@ -118,9 +119,9 @@ const Index = () => {
                     <Icon name="BookOpen" size={40} className="text-accent" />
                   </div>
                 </div>
-                <h4 className="text-2xl font-playfair font-semibold">Энергетическая чистка</h4>
+                <h4 className="text-2xl font-playfair font-semibold">Нумерология</h4>
                 <p className="text-muted-foreground">
-                  Очищение энергетических каналов от негатива и восстановление потока энергии
+                  Расчет матрицы судьбы, кода личности и прогноз по персональным числам
                 </p>
               </CardContent>
             </Card>
@@ -132,9 +133,9 @@ const Index = () => {
                     <Icon name="MessageCircle" size={40} className="text-accent" />
                   </div>
                 </div>
-                <h4 className="text-2xl font-playfair font-semibold">Балансировка чакр</h4>
+                <h4 className="text-2xl font-playfair font-semibold">Рунические практики</h4>
                 <p className="text-muted-foreground">
-                  Гармонизация энергетических центров и восстановление внутреннего баланса
+                  Гадание на рунах, создание рунических амулетов и защитных ставов
                 </p>
               </CardContent>
             </Card>
@@ -152,7 +153,7 @@ const Index = () => {
                   <Icon name="Video" size={24} className="text-accent" />
                   <h4 className="text-xl font-playfair font-semibold">Онлайн-сеанс</h4>
                 </div>
-                <p className="text-muted-foreground">Дистанционная работа с энергией в удобное для вас время</p>
+                <p className="text-muted-foreground">Онлайн-консультация по любому направлению в удобное время</p>
                 <p className="text-2xl font-bold text-accent">3000 ₽</p>
                 <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
                   Записаться
@@ -166,7 +167,7 @@ const Index = () => {
                   <Icon name="Users" size={24} className="text-accent" />
                   <h4 className="text-xl font-playfair font-semibold">Личная встреча</h4>
                 </div>
-                <p className="text-muted-foreground">Глубокая работа с энергией в пространстве студии</p>
+                <p className="text-muted-foreground">Индивидуальный сеанс в уютной атмосфере студии</p>
                 <p className="text-2xl font-bold text-accent">5000 ₽</p>
                 <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
                   Записаться
@@ -177,7 +178,46 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="cats" className="py-20 px-4">
+      <section id="directions" className="py-20 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <h3 className="text-4xl font-playfair font-bold text-center mb-12 text-accent">Направления работы</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Card className="bg-card/50 border-border hover:border-accent transition-colors">
+              <CardContent className="p-6 text-center space-y-3">
+                <Icon name="Star" size={40} className="text-accent mx-auto" />
+                <h4 className="text-xl font-playfair font-semibold">Астрология</h4>
+                <p className="text-sm text-muted-foreground">Натальная карта, совместимость, транзиты</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-card/50 border-border hover:border-accent transition-colors">
+              <CardContent className="p-6 text-center space-y-3">
+                <Icon name="Brain" size={40} className="text-accent mx-auto" />
+                <h4 className="text-xl font-playfair font-semibold">Медитации</h4>
+                <p className="text-sm text-muted-foreground">Управляемые практики, работа с подсознанием</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-card/50 border-border hover:border-accent transition-colors">
+              <CardContent className="p-6 text-center space-y-3">
+                <Icon name="Sparkles" size={40} className="text-accent mx-auto" />
+                <h4 className="text-xl font-playfair font-semibold">Энергопрактики</h4>
+                <p className="text-sm text-muted-foreground">Чакры, аура, энергетическая защита</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-card/50 border-border hover:border-accent transition-colors">
+              <CardContent className="p-6 text-center space-y-3">
+                <Icon name="Flame" size={40} className="text-accent mx-auto" />
+                <h4 className="text-xl font-playfair font-semibold">Свечная магия</h4>
+                <p className="text-sm text-muted-foreground">Ритуалы, обряды, работа с огнём</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section id="cats" className="py-20 px-4 bg-card/30">
         <div className="container mx-auto max-w-4xl">
           <div className="flex items-center justify-center gap-4 mb-12">
             <Icon name="Cat" size={48} className="text-accent animate-float" />
