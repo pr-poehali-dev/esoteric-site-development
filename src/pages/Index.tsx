@@ -55,10 +55,10 @@ const Index = () => {
             <Icon name="Sparkles" size={48} className="text-accent" />
           </div>
           <h2 className="text-5xl md:text-7xl font-playfair font-bold mb-6 bg-gradient-to-r from-accent via-secondary to-accent bg-clip-text text-transparent animate-fade-in">
-            Путь к сакральным знаниям
+            Возроди свою энергию — измени реальность
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-in">
-            Таро, нумерология, руны, астрология — древние практики для познания себя и мира
+            Энергетическая работа помогает освободиться от невидимых блоков, вернуть силу, вдохновение и внутреннюю поддержку, чтобы жизнь снова наполнилась движением и смыслом.
           </p>
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold px-8 animate-fade-in">
             Записаться на сеанс
